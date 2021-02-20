@@ -12,8 +12,9 @@ Deploy the site locally. Instructions below.
 ## Preparation
 
 You must set the `REACT_APP_YELP_API_KEY` environment variable to your Yelp API key in order to use.
-Currently, the project is configured to use my CORS proxy, which is set to whitelist `localhost` and the 
-domain on which I've hosted this site. The `localhost` whitelist will likely be removed in the future.
+
+You will also need to set your own CORS proxy. For security reasons, I cannot make my CORS proxy public.
+This is the primary reason I recommend simply viewing the deployed site at the link above.
 
 ## Available Scripts
 
