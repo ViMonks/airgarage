@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# AirGarage Coding Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# How to view:
+## Recommended:
+
+I have deployed the site to my domain [here](https://airgarage.justinthurman.dev/).
+
+## Alternatively:
+
+Deploy the site locally. Instructions below.
+
+## Preparation
+
+You must set the `REACT_APP_YELP_API_KEY` environment variable to your Yelp API key in order to use.
+Currently, the project is configured to use my CORS proxy, which is set to whitelist `localhost` and the 
+domain on which I've hosted this site. The `localhost` whitelist will likely be removed in the future.
 
 ## Available Scripts
 
