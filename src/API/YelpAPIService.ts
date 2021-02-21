@@ -11,7 +11,7 @@ const myHeaders = {
 const getBusinesses = async ({ location }: IGetBusinesses) => {
   return axios
     .get(
-      `https://stark-tundra-89855.herokuapp.com/https://api.yelp.com/v3/businesses/search?categories=parking&sort_by=review_count&location=${location}`,
+      `${process.env.REACT_APP_CORS_PROXY_URL}https://api.yelp.com/v3/businesses/search?categories=parking&sort_by=review_count&location=${location}`,
       { headers: myHeaders }
     )
     .catch((error) => {
